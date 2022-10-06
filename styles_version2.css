@@ -1,0 +1,155 @@
+/*style of navigation*/
+nav ul {
+    background-color:rgba(0, 0, 0, 0.5);
+    list-style-type: none;
+    overflow: hidden;
+    position:fixed;
+    width: 100%;
+    height: 9%;
+  }
+  
+nav li{
+      float: right;
+      font-size: 0.9em;
+      padding-top:0.3em;
+      padding-bottom: 0.3em;
+      padding-left: 0.5em;
+      padding-right: 0.5em;
+  }
+
+nav li a {
+    display: inline-block;
+    text-align: center;
+    padding: 0.3em;
+    text-decoration: none;
+  }
+  
+nav a:link {
+    text-decoration:none;
+    color:rgb(255, 255, 255);
+}
+nav a:visited {
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+}
+nav a:hover {
+    text-decoration: none;
+    font-weight: bold;
+    background-color: yellowgreen;
+}
+/*nav a:active {
+    text-decoration: underline;
+    text-decoration-color: blue;
+    font-weight: bold;
+    color: black;
+}*/
+
+
+header{
+    text-align: center;
+    background-image: url(images_p1/section-background.jpg);
+    margin: none;
+    }
+header h1{
+    color: white;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 2.5em;
+    padding-top: 6%;
+    padding-bottom: 0.5em;
+    }
+
+ /* style for body and article */
+ body{
+    font-family: Georgia, Cambria, "Times New Roman", serif;
+    font-size: 100%;
+    /*background-color: whitesmoke;*/
+    background-image:
+    url(images_p1/background-pattern.jfif);
+    }
+
+img.fix{
+    padding-left: 1rem;
+    width: 10rem;
+    position: fixed;
+    height: 3rem;
+    float: left;
+}
+
+figure{
+    text-align: center;
+}
+section{
+    background-color: white;
+    margin-top: 1em;
+    margin-right: 6em;
+    margin-bottom: 1em;
+    margin-left: 6em;
+    border: solid 1pt black;
+}
+section h2{
+    color: mintcream;
+    padding: 0.5em;
+    background-image: url(images_p1/section-background.jpg);
+    background-repeat: repeat;
+    text-align:center;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 1.875em;
+}
+
+/* style of links in section*/
+section a:link {
+    text-decoration:underline;
+    color: blue;
+}
+    section a:visited {
+    text-decoration: underline;
+    color: blue;
+}
+    section a:hover {
+    text-decoration: none;
+    font-weight: bold;
+    background-color:grey;
+}
+
+/*style of image and list*/
+img.a{
+    width: 20%;
+    height: 20%;
+    border: solid 2px #050505;
+    border-style: double;
+    padding: 0.5em;
+    margin-top: 1em;
+    margin-left: auto;/*make the image aligns center*/
+    margin-right: auto;
+    display: block;
+}
+img.b{
+    width: 30%;
+    height: 30%;
+}
+ul{
+    color: blue;
+    font-size:1.5em;
+    list-style-type: none;
+}
+li{
+    text-align: center;
+}
+/*style of paragraph*/
+p{
+    padding: 1em;
+}
+
+/*style of footer*/
+    footer {
+    background-image: url(images_p1/section-background.jpg);
+    }
+    footer h3{
+    text-align: center;
+    color: white;
+    padding: 1em;
+        }
+    
+ 
