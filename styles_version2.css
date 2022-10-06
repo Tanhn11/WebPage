@@ -71,9 +71,9 @@ header h1{
 
 img.fix{
     padding-left: 1rem;
-    width: 4%;
+    width: 4em;
     position: fixed;
-    height: 8%;
+    height: 4em;
     float: left;
 }
 
