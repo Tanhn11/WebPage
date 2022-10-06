@@ -1,0 +1,105 @@
+/*style of navigation*/
+nav
+{
+    text-align: center;
+    padding: 0.25em;
+}
+nav a
+{
+    padding: 0.25em;
+}
+nav a:link {
+        text-decoration:none;
+        color:black;
+    }
+nav a:visited {
+        text-decoration: underline;
+        color:black;
+    }
+nav a:hover {
+        text-decoration: none;
+        font-weight: bold;
+        background-color:white;
+    }
+
+header{
+    text-align: center;
+    /*background-color:rgb(247, 137, 3);*/
+    }
+header h1{
+    /*color: white;*/
+    color: black;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 2.5em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    }
+
+ /* style for body, figure and section */
+ body{
+    font-family: Georgia, Cambria, "Times New Roman", serif;
+    font-size: 100%;
+    /*background-color:rgb(255, 238, 218);*/
+    background-image: url(images_p1/background_2.jpg);
+    }
+
+section{
+    /*background-color:white;*/
+    background-color:rgba(256, 256, 256, 0.7);
+    margin-top: 1em;
+    margin-right: 6em;
+    margin-bottom: 1em;
+    margin-left: 6em;
+    /*border: solid 1pt black;*/
+}
+section h2{
+    color: black;
+    padding: 0.5em;
+    background-color:rgb(240, 240, 240);
+    text-align:center;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 1.875em;
+}
+
+/*style of image and list*/
+img.a{
+    width: 20%;
+    height: 20%;
+    border: solid 2px #050505;
+    border-style: double;
+    padding: 0.5em;
+    margin-top: 1em;
+    margin-left: auto;/*make the image aligns center*/
+    margin-right: auto;
+    display: block;
+}
+img.b{
+    width: 30%;
+    height: 30%;
+}
+ul{
+    color: black;
+    font-size:1.5em;
+    list-style-type: none;
+}
+li{
+    text-align: center;
+}
+/*style of paragraph*/
+p{
+    padding: 1em;
+}
+
+/*style of footer*/
+    footer {
+    background-color:rgba(256, 256, 256, 0.6);
+    }
+    footer h3{
+    text-align: center;
+    color: black;
+    padding: 1em;
+        }
+    
+ 
